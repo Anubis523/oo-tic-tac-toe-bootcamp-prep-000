@@ -153,10 +153,11 @@ end
       turns += 1
     end
     if (winner == "X")
-      "Congratulations X!"
+      puts "Congratulations X!"
     elsif(winner == "O")
-      "Congratulations O!"
+      puts "Congratulations O!"
     elsif (draw?)
+      puts "Cat's Game!"
     end
   end
 
