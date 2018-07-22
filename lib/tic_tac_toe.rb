@@ -153,8 +153,9 @@ end
       turns += 1
     end
     if (winner == "X")
-      
+      "Congratulations X!"
     elsif(winner == "O")
+      "Congratulations O!"
     elsif (draw?)
     end
   end
