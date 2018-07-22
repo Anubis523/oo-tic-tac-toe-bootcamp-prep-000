@@ -152,6 +152,11 @@ end
       turn
       turns += 1
     end
+    if (winner == "X")
+      
+    elsif(winner == "O")
+    elsif (draw?)
+    end
   end
 
 end
